@@ -1,0 +1,12 @@
+{
+  "Office UI Fabric Core Reference": {
+    "prefix": "spfx-fabcore",
+    "body": "@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';",
+    "description": "Includes the Office UI Fabric Core styles into your SASS file."
+  },
+  "Office UI Fabric React Reference": {
+    "prefix": "spfx-fabreact",
+    "body": "@import '~office-ui-fabric-react/dist/sass/References.scss';",
+    "description": "Includes the core styles from the Office UI Fabric React package into your SASS file."
+  }
+}

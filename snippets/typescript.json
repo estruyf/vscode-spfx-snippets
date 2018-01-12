@@ -1,0 +1,29 @@
+{
+  "Resource definition": {
+    "prefix": "spfx-locale-ts",
+    "body": [
+      "declare interface I${1:Resource}Strings {",
+      "  ${2:}",
+      "}",
+      "",
+      "declare module '${1:Resource}Strings' {",
+      "  const strings: I${1:Resource}Strings;",
+      "  export = strings;",
+      "}",
+      ""
+    ],
+    "description": "Defines the content to create a new localization definition file."
+  },
+  "Webpart onInit": {
+    "prefix": "spfx-wpinit",
+    "body": [
+      "protected onInit<T>(): Promise<T> {",
+      "  ${1:}",
+      "",
+      " return Promise.resolve();",
+      "}",
+      ""
+    ],
+    "description": "Defines the web part onInit method."
+  }
+}

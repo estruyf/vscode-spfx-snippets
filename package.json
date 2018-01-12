@@ -1,0 +1,50 @@
+{
+    "name": "spfx-snippets",
+    "displayName": "SPFx Snippets",
+    "description": "SharePoint Framework Snippets by Elio Struyf",
+    "version": "1.0.0",
+    "icon": "assets/spfx-snippets.png",
+    "publisher": "eliostruyf",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "SharePoint",
+        "SPFx",
+        "TypeScript",
+        "React",
+        "Framework"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/estruyf/vscode-spfx-snippets"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/sass.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/json.json"
+            }
+        ]
+    }
+}

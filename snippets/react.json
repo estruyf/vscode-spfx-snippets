@@ -1,0 +1,37 @@
+{
+  "React Component": {
+		"prefix": "spfx-rcc",
+		"body": [
+      "import * as React from 'react';",
+      "import styles from './${1:Component}.module.scss';",
+			"",
+			"export interface I${1:Component}Props {}",
+      "",
+      "export interface I${1:Component}State {}",
+      "",
+			"export default class ${1:} extends React.Component<I${1:}Props, I${1:Component}State> {",
+			"  public render(): React.ReactElement<I${1:}Props> {",
+			"    return (",
+			"      <div>",
+			"        ${2:}",
+			"      </div>",
+			"    );",
+			"  }",
+			"}",
+			""
+		],
+		"description": "Creates a new React Component."
+  },
+  "React Constructor": {
+    "prefix": "spfx-con",
+		"body": [
+      "constructor(props: I${1:Component}Props) {",
+      "  super(props);",
+      "",
+      "  ${2:}",
+			"}",
+			""
+		],
+		"description": "Adds a React constructor method."
+  }
+}

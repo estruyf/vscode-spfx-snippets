@@ -1,0 +1,14 @@
+{
+  "Define Resource Strings": {
+    "prefix": "spfx-locale-js",
+    "body": [
+      "define([], function() {",
+      " return {",
+      "  ${1:}",
+      " }",
+      "});",
+      ""
+    ],
+    "description": "Defines the content to create a new locale file."
+  }
+}
