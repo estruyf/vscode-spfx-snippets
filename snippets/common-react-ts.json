@@ -1,0 +1,13 @@
+{
+  "SPHttpClient get": {
+    "prefix": "spfx-spget",
+    "body": [
+      "this.context.spHttpClient.get(\"${1:https://contoso.sharepoint.com/_api/web/lists}\", SPHttpClient.configurations.v1)",
+      ".then((data: SPHttpClientResponse) => data.json())",
+      ".then((data: ${2:any}) => {",
+      "  ${3:}",
+      "});"
+    ],
+    "description": "Adds SPHttpClient get request."
+  }
+}

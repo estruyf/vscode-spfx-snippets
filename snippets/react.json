@@ -22,6 +22,37 @@
 		],
 		"description": "Creates a new React Component."
   },
+  "React Component with state initialization": {
+		"prefix": "spfx-rcc-state",
+		"body": [
+      "import * as React from 'react';",
+      "import styles from './${1:Component}.module.scss';",
+			"",
+			"export interface I${1:Component}Props {}",
+      "",
+      "export interface I${1:Component}State {}",
+      "",
+			"export default class ${1:} extends React.Component<I${1:}Props, I${1:Component}State> {",
+			"  constructor(props: I${1:Component}Props) {",
+			"    super(props);",
+			"",
+			"    this.state = {",
+			"      ${2:}",
+			"    };",
+			"  }",
+			"",
+			"  public render(): React.ReactElement<I${1:}Props> {",
+			"    return (",
+			"      <div>",
+			"        ${3:}",
+			"      </div>",
+			"    );",
+			"  }",
+			"}",
+			""
+		],
+		"description": "Creates a new React Component with state initialization."
+  },
   "React Constructor": {
     "prefix": "spfx-con",
 		"body": [
@@ -33,5 +64,68 @@
 			""
 		],
 		"description": "Adds a React constructor method."
-  }
+	},
+	"Initialize state": {
+		"prefix": "spfx-ist",
+		"body": [
+			"this.state = {",
+      "  ${1:}",
+			"};"
+		],
+		"description": "Initializes the React state."
+	},
+	"setState": {
+		"prefix": "spfx-sst",
+		"body": [
+			"this.setState({",
+			"  ${1:}",
+			"});"
+		],
+		"description": "Adds setState block."
+	},
+	"setState based on previous value": {
+		"prefix": "spfx-ucst",
+		"body": [
+			"this.setState((prevState: I${1:Component}State) => ({",
+			"  ${2:}",
+			"}));"
+		],
+		"description": "Adds the setState block to correctly update the state based on previous value."
+	},
+	"componentWillUpdate": {
+		"prefix": "spfx-cwu",
+		"body": [
+			"public componentWillUpdate(nextProps: I${1:Component}Props, nextState: I${1:Component}State): void {",
+			"  ${2:}",
+			"}"
+		],
+		"description": "Adds componentWillUpdate method which is invoked just before rendering when new props or state are retrieved."
+	},
+	"componentDidUpdate": {
+		"prefix": "spfx-cdu",
+		"body": [
+			"public componentDidUpdate(prevProps: I${1:Component}Props, prevState: I${1:Component}State): void {",
+			"  ${2:}",
+			"}"
+		],
+		"description": "Adds componentDidUpdate method which is invoked just after rendering when new props or state are retrieved."
+	},
+	"componentWillMount": {
+		"prefix": "spfx-cwm",
+		"body": [
+			"public componentWillMount(): void {",
+			"  ${1:}",
+			"}"
+		],
+		"description": "Add componentWillMount method which is invoked before the component mounting happens."
+	},
+	"componentDidMount": {
+		"prefix": "spfx-cdm",
+		"body": [
+			"public componentDidMount(): void {",
+			"  ${1:}",
+			"}"
+		],
+		"description": "Add componentDidMount method which is invoked after the component mounting and rendering happened."
+	}
 }

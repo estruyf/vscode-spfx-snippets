@@ -20,10 +20,24 @@
       "protected onInit<T>(): Promise<T> {",
       "  ${1:}",
       "",
-      " return Promise.resolve();",
+      "  return Promise.resolve();",
       "}",
       ""
     ],
     "description": "Defines the web part onInit method."
+  },
+  "Render component": {
+    "prefix": "spfx-render-elm",
+    "body": [
+      "const element: React.ReactElement<I${1:Component}Props> = React.createElement(",
+      "  ${1:Component},",
+      "  {",
+      "    ${2:}",
+      "  }",
+      ");",
+      "",
+      "ReactDom.render(element, this.domElement);"
+    ],
+    "description": "Adds the code required to create and render a React component."
   }
 }
