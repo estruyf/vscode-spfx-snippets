@@ -1,0 +1,332 @@
+{
+  "$ms-color-themeDarker": {
+    "prefix": "spfx-color-themeDarker",
+    "body": "\\$ms-color-themeDarker",
+    "description": "default: #004578"
+  },
+  "$ms-color-themeDark": {
+    "prefix": "spfx-color-themeDark",
+    "body": "\\$ms-color-themeDark",
+    "description": "default: #005a9e"
+  },
+  "$ms-color-themeDarkAlt": {
+    "prefix": "spfx-color-themeDarkAlt",
+    "body": "\\$ms-color-themeDarkAlt",
+    "description": "default: #106ebe"
+  },
+  "$ms-color-themePrimary": {
+    "prefix": "spfx-color-themePrimary",
+    "body": "\\$ms-color-themePrimary",
+    "description": "default: #0078d7"
+  },
+  "$ms-color-themeSecondary": {
+    "prefix": "spfx-color-themeSecondary",
+    "body": "\\$ms-color-themeSecondary",
+    "description": "default: #2b88d8"
+  },
+  "$ms-color-themeTertiary": {
+    "prefix": "spfx-color-themeTertiary",
+    "body": "\\$ms-color-themeTertiary",
+    "description": "default: #71afe5"
+  },
+  "$ms-color-themeLight": {
+    "prefix": "spfx-color-themeLight",
+    "body": "\\$ms-color-themeLight",
+    "description": "default: #c7e0f4"
+  },
+  "$ms-color-themeLighter": {
+    "prefix": "spfx-color-themeLighter",
+    "body": "\\$ms-color-themeLighter",
+    "description": "default: #deecf9"
+  },
+  "$ms-color-themeLighterAlt": {
+    "prefix": "spfx-color-themeLighterAlt",
+    "body": "\\$ms-color-themeLighterAlt",
+    "description": "default: #eff6fc"
+  },
+  "$ms-color-black": {
+    "prefix": "spfx-color-black",
+    "body": "\\$ms-color-black",
+    "description": "default: #000000"
+  },
+  "$ms-color-neutralDark": {
+    "prefix": "spfx-color-neutralDark",
+    "body": "\\$ms-color-neutralDark",
+    "description": "default: #212121"
+  },
+  "$ms-color-neutralPrimary": {
+    "prefix": "spfx-color-neutralPrimary",
+    "body": "\\$ms-color-neutralPrimary",
+    "description": "default: #333333"
+  },
+  "$ms-color-neutralPrimaryAlt": {
+    "prefix": "spfx-color-neutralPrimaryAlt",
+    "body": "\\$ms-color-neutralPrimaryAlt",
+    "description": "default: #3c3c3c"
+  },
+  "$ms-color-neutralSecondary": {
+    "prefix": "spfx-color-neutralSecondary",
+    "body": "\\$ms-color-neutralSecondary",
+    "description": "default: #666666"
+  },
+  "$ms-color-neutralSecondaryAlt": {
+    "prefix": "spfx-color-neutralSecondaryAlt",
+    "body": "\\$ms-color-neutralSecondaryAlt",
+    "description": "default: #767676"
+  },
+  "$ms-color-neutralTertiary": {
+    "prefix": "spfx-color-neutralTertiary",
+    "body": "\\$ms-color-neutralTertiary",
+    "description": "default: #a6a6a6"
+  },
+  "$ms-color-neutralTertiaryAlt": {
+    "prefix": "spfx-color-neutralTertiaryAlt",
+    "body": "\\$ms-color-neutralTertiaryAlt",
+    "description": "default: #c8c8c8"
+  },
+  "$ms-color-neutralQuaternary": {
+    "prefix": "spfx-color-neutralQuaternary",
+    "body": "\\$ms-color-neutralQuaternary",
+    "description": "default: #d0d0d0"
+  },
+  "$ms-color-neutralQuaternaryAlt": {
+    "prefix": "spfx-color-neutralQuaternaryAlt",
+    "body": "\\$ms-color-neutralQuaternaryAlt",
+    "description": "default: #dadada"
+  },
+  "$ms-color-neutralLight": {
+    "prefix": "spfx-color-neutralLight",
+    "body": "\\$ms-color-neutralLight",
+    "description": "default: #eaeaea"
+  },
+  "$ms-color-neutralLighter": {
+    "prefix": "spfx-color-neutralLighter",
+    "body": "\\$ms-color-neutralLighter",
+    "description": "default: #f4f4f4"
+  },
+  "$ms-color-neutralLighterAlt": {
+    "prefix": "spfx-color-neutralLighterAlt",
+    "body": "\\$ms-color-neutralLighterAlt",
+    "description": "default: #f8f8f8"
+  },
+  "$ms-color-white": {
+    "prefix": "spfx-color-white",
+    "body": "\\$ms-color-white",
+    "description": "default: #ffffff"
+  },
+  "$ms-color-blackTranslucent40": {
+    "prefix": "spfx-color-blackTranslucent40",
+    "body": "\\$ms-color-blackTranslucent40",
+    "description": "default: rgba(0,0,0,.4)"
+  },
+  "$ms-color-whiteTranslucent40": {
+    "prefix": "spfx-color-whiteTranslucent40",
+    "body": "\\$ms-color-whiteTranslucent40",
+    "description": "default: rgba(255,255,255,.4)"
+  },
+  "$ms-color-yellow": {
+    "prefix": "spfx-color-yellow",
+    "body": "\\$ms-color-yellow",
+    "description": "default: #ffb900"
+  },
+  "$ms-color-yellowLight": {
+    "prefix": "spfx-color-yellowLight",
+    "body": "\\$ms-color-yellowLight",
+    "description": "default: #fff100"
+  },
+  "$ms-color-orange": {
+    "prefix": "spfx-color-orange",
+    "body": "\\$ms-color-orange",
+    "description": "default: #d83b01"
+  },
+  "$ms-color-orangeLight": {
+    "prefix": "spfx-color-orangeLight",
+    "body": "\\$ms-color-orangeLight",
+    "description": "default: #ff8c00"
+  },
+  "$ms-color-redDark": {
+    "prefix": "spfx-color-redDark",
+    "body": "\\$ms-color-redDark",
+    "description": "default: #a80000"
+  },
+  "$ms-color-red": {
+    "prefix": "spfx-color-red",
+    "body": "\\$ms-color-red",
+    "description": "default: #e81123"
+  },
+  "$ms-color-magentaDark": {
+    "prefix": "spfx-color-magentaDark",
+    "body": "\\$ms-color-magentaDark",
+    "description": "default: #5c005c"
+  },
+  "$ms-color-magenta": {
+    "prefix": "spfx-color-magenta",
+    "body": "\\$ms-color-magenta",
+    "description": "default: #b4009e"
+  },
+  "$ms-color-magentaLight": {
+    "prefix": "spfx-color-magentaLight",
+    "body": "\\$ms-color-magentaLight",
+    "description": "default: #e3008c"
+  },
+  "$ms-color-purpleDark": {
+    "prefix": "spfx-color-purpleDark",
+    "body": "\\$ms-color-purpleDark",
+    "description": "default: #32145a"
+  },
+  "$ms-color-purple": {
+    "prefix": "spfx-color-purple",
+    "body": "\\$ms-color-purple",
+    "description": "default: #5c2d91"
+  },
+  "$ms-color-purpleLight": {
+    "prefix": "spfx-color-purpleLight",
+    "body": "\\$ms-color-purpleLight",
+    "description": "default: #b4a0ff"
+  },
+  "$ms-color-blueDark": {
+    "prefix": "spfx-color-blueDark",
+    "body": "\\$ms-color-blueDark",
+    "description": "default: #002050"
+  },
+  "$ms-color-blueMid": {
+    "prefix": "spfx-color-blueMid",
+    "body": "\\$ms-color-blueMid",
+    "description": "default: #00188f"
+  },
+  "$ms-color-blue": {
+    "prefix": "spfx-color-blue",
+    "body": "\\$ms-color-blue",
+    "description": "default: #0078d7"
+  },
+  "$ms-color-blueLight": {
+    "prefix": "spfx-color-blueLight",
+    "body": "\\$ms-color-blueLight",
+    "description": "default: #00bcf2"
+  },
+  "$ms-color-tealDark": {
+    "prefix": "spfx-color-tealDark",
+    "body": "\\$ms-color-tealDark",
+    "description": "default: #004b50"
+  },
+  "$ms-color-teal": {
+    "prefix": "spfx-color-teal",
+    "body": "\\$ms-color-teal",
+    "description": "default: #008272"
+  },
+  "$ms-color-tealLight": {
+    "prefix": "spfx-color-tealLight",
+    "body": "\\$ms-color-tealLight",
+    "description": "default: #00b294"
+  },
+  "$ms-color-greenDark": {
+    "prefix": "spfx-color-greenDark",
+    "body": "\\$ms-color-greenDark",
+    "description": "default: #004b1c"
+  },
+  "$ms-color-green": {
+    "prefix": "spfx-color-green",
+    "body": "\\$ms-color-green",
+    "description": "default: #107c10"
+  },
+  "$ms-color-greenLight": {
+    "prefix": "spfx-color-greenLight",
+    "body": "\\$ms-color-greenLight",
+    "description": "default: #bad80a"
+  },
+  "$ms-color-error": {
+    "prefix": "spfx-color-error",
+    "body": "\\$ms-color-error",
+    "description": "default: #a80000"
+  },
+  "$ms-color-errorText": {
+    "prefix": "spfx-color-errorText",
+    "body": "\\$ms-color-errorText",
+    "description": "default: #333333"
+  },
+  "$ms-color-errorBackground": {
+    "prefix": "spfx-color-errorBackground",
+    "body": "\\$ms-color-errorBackground",
+    "description": "default: #fde7e9"
+  },
+  "$ms-color-success": {
+    "prefix": "spfx-color-success",
+    "body": "\\$ms-color-success",
+    "description": "default: #107c10"
+  },
+  "$ms-color-successText": {
+    "prefix": "spfx-color-successText",
+    "body": "\\$ms-color-successText",
+    "description": "default: #333333"
+  },
+  "$ms-color-successBackground": {
+    "prefix": "spfx-color-successBackground",
+    "body": "\\$ms-color-successBackground",
+    "description": "default: #dff6dd"
+  },
+  "$ms-color-alert": {
+    "prefix": "spfx-color-alert",
+    "body": "\\$ms-color-alert",
+    "description": "default: #d83b01"
+  },
+  "$ms-color-alertText": {
+    "prefix": "spfx-color-alertText",
+    "body": "\\$ms-color-alertText",
+    "description": "default: #333333"
+  },
+  "$ms-color-alertBackground": {
+    "prefix": "spfx-color-alertBackground",
+    "body": "\\$ms-color-alertBackground",
+    "description": "default: #deecf9"
+  },
+  "$ms-color-warning": {
+    "prefix": "spfx-color-warning",
+    "body": "\\$ms-color-warning",
+    "description": "default: #767676"
+  },
+  "$ms-color-warningText": {
+    "prefix": "spfx-color-warningText",
+    "body": "\\$ms-color-warningText",
+    "description": "default: #333333"
+  },
+  "$ms-color-warningBackground": {
+    "prefix": "spfx-color-warningBackground",
+    "body": "\\$ms-color-warningBackground",
+    "description": "default: #fff4ce"
+  },
+  "$ms-color-severeWarning": {
+    "prefix": "spfx-color-severeWarning",
+    "body": "\\$ms-color-severeWarning",
+    "description": "default: #d83b01"
+  },
+  "$ms-color-severeWarningText": {
+    "prefix": "spfx-color-severeWarningText",
+    "body": "\\$ms-color-severeWarningText",
+    "description": "default: #333333"
+  },
+  "$ms-color-severeWarningBackground": {
+    "prefix": "spfx-color-severeWarningBackground",
+    "body": "\\$ms-color-severeWarningBackground",
+    "description": "default: #fed9cc"
+  },
+  "$ms-color-info": {
+    "prefix": "spfx-color-info",
+    "body": "\\$ms-color-info",
+    "description": "default: #767676"
+  },
+  "$ms-color-infoText": {
+    "prefix": "spfx-color-infoText",
+    "body": "\\$ms-color-infoText",
+    "description": "default: #333333"
+  },
+  "$ms-color-infoBackground": {
+    "prefix": "spfx-color-infoBackground",
+    "body": "\\$ms-color-infoBackground",
+    "description": "default: #f4f4f4"
+  },
+  "$ms-color-orangeLighter": {
+    "prefix": "spfx-color-orangeLighter",
+    "body": "\\$ms-color-orangeLighter",
+    "description": "default: #ea4300"
+  }
+}

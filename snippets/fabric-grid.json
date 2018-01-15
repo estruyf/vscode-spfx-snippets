@@ -1,0 +1,374 @@
+{
+  "ms-Grid": {
+    "prefix": "spfx-grid",
+    "body": "@include ms-Grid;",
+    "description": "Includes the ms-Grid styles"
+  },
+  "ms-Grid-row": {
+    "prefix": "spfx-grid-row",
+    "body": "@include ms-Grid-row;",
+    "description": "Includes the ms-Grid-row styles"
+  },
+  "ms-Grid-col": {
+    "prefix": "spfx-grid-col",
+    "body": "@include ms-Grid-col;",
+    "description": "Includes the ms-Grid-col styles"
+  },
+  "ms-sm12": {
+    "prefix": "spfx-grid-sm12",
+    "body": "@include ms-sm12;",
+    "description": "Includes the ms-sm12 grid width"
+  },
+  "ms-sm11": {
+    "prefix": "spfx-grid-sm11",
+    "body": "@include ms-sm1sm112;",
+    "description": "Includes the ms-sm11 grid width"
+  },
+  "ms-sm10": {
+    "prefix": "spfx-grid-sm10",
+    "body": "@include ms-sm10;",
+    "description": "Includes the ms-sm10 grid width"
+  },
+  "ms-sm9": {
+    "prefix": "spfx-grid-sm9",
+    "body": "@include ms-sm9;",
+    "description": "Includes the ms-sm9 grid width"
+  },
+  "ms-sm8": {
+    "prefix": "spfx-grid-sm8",
+    "body": "@include ms-sm8;",
+    "description": "Includes the ms-sm8 grid width"
+  },
+  "ms-sm7": {
+    "prefix": "spfx-grid-sm7",
+    "body": "@include ms-sm7;",
+    "description": "Includes the ms-sm7 grid width"
+  },
+  "ms-sm6": {
+    "prefix": "spfx-grid-sm6",
+    "body": "@include ms-sm6;",
+    "description": "Includes the ms-sm6 grid width"
+  },
+  "ms-sm5": {
+    "prefix": "spfx-grid-sm5",
+    "body": "@include ms-sm5;",
+    "description": "Includes the ms-sm5 grid width"
+  },
+  "ms-sm4": {
+    "prefix": "spfx-grid-sm4",
+    "body": "@include ms-sm4;",
+    "description": "Includes the ms-sm4 grid width"
+  },
+  "ms-sm3": {
+    "prefix": "spfx-grid-sm3",
+    "body": "@include ms-sm3;",
+    "description": "Includes the ms-sm3 grid width"
+  },
+  "ms-sm2": {
+    "prefix": "spfx-grid-sm2",
+    "body": "@include ms-sm2;",
+    "description": "Includes the ms-sm2 grid width"
+  },
+  "ms-sm1": {
+    "prefix": "spfx-grid-sm1",
+    "body": "@include ms-sm1;",
+    "description": "Includes the ms-sm1 grid width"
+  },
+  "ms-md12": {
+    "prefix": "spfx-grid-md12",
+    "body": "@include ms-md12;",
+    "description": "Includes the ms-md12 grid width"
+  },
+  "ms-md11": {
+    "prefix": "spfx-grid-md11",
+    "body": "@include ms-md1md112;",
+    "description": "Includes the ms-md11 grid width"
+  },
+  "ms-md10": {
+    "prefix": "spfx-grid-md10",
+    "body": "@include ms-md10;",
+    "description": "Includes the ms-md10 grid width"
+  },
+  "ms-md9": {
+    "prefix": "spfx-grid-md9",
+    "body": "@include ms-md9;",
+    "description": "Includes the ms-md9 grid width"
+  },
+  "ms-md8": {
+    "prefix": "spfx-grid-md8",
+    "body": "@include ms-md8;",
+    "description": "Includes the ms-md8 grid width"
+  },
+  "ms-md7": {
+    "prefix": "spfx-grid-md7",
+    "body": "@include ms-md7;",
+    "description": "Includes the ms-md7 grid width"
+  },
+  "ms-md6": {
+    "prefix": "spfx-grid-md6",
+    "body": "@include ms-md6;",
+    "description": "Includes the ms-md6 grid width"
+  },
+  "ms-md5": {
+    "prefix": "spfx-grid-md5",
+    "body": "@include ms-md5;",
+    "description": "Includes the ms-md5 grid width"
+  },
+  "ms-md4": {
+    "prefix": "spfx-grid-md4",
+    "body": "@include ms-md4;",
+    "description": "Includes the ms-md4 grid width"
+  },
+  "ms-md3": {
+    "prefix": "spfx-grid-md3",
+    "body": "@include ms-md3;",
+    "description": "Includes the ms-md3 grid width"
+  },
+  "ms-md2": {
+    "prefix": "spfx-grid-md2",
+    "body": "@include ms-md2;",
+    "description": "Includes the ms-md2 grid width"
+  },
+  "ms-md1": {
+    "prefix": "spfx-grid-md1",
+    "body": "@include ms-md1;",
+    "description": "Includes the ms-md1 grid width"
+  },
+  "ms-lg12": {
+    "prefix": "spfx-grid-lg12",
+    "body": "@include ms-lg12;",
+    "description": "Includes the ms-lg12 grid width"
+  },
+  "ms-lg11": {
+    "prefix": "spfx-grid-lg11",
+    "body": "@include ms-lg1lg112;",
+    "description": "Includes the ms-lg11 grid width"
+  },
+  "ms-lg10": {
+    "prefix": "spfx-grid-lg10",
+    "body": "@include ms-lg10;",
+    "description": "Includes the ms-lg10 grid width"
+  },
+  "ms-lg9": {
+    "prefix": "spfx-grid-lg9",
+    "body": "@include ms-lg9;",
+    "description": "Includes the ms-lg9 grid width"
+  },
+  "ms-lg8": {
+    "prefix": "spfx-grid-lg8",
+    "body": "@include ms-lg8;",
+    "description": "Includes the ms-lg8 grid width"
+  },
+  "ms-lg7": {
+    "prefix": "spfx-grid-lg7",
+    "body": "@include ms-lg7;",
+    "description": "Includes the ms-lg7 grid width"
+  },
+  "ms-lg6": {
+    "prefix": "spfx-grid-lg6",
+    "body": "@include ms-lg6;",
+    "description": "Includes the ms-lg6 grid width"
+  },
+  "ms-lg5": {
+    "prefix": "spfx-grid-lg5",
+    "body": "@include ms-lg5;",
+    "description": "Includes the ms-lg5 grid width"
+  },
+  "ms-lg4": {
+    "prefix": "spfx-grid-lg4",
+    "body": "@include ms-lg4;",
+    "description": "Includes the ms-lg4 grid width"
+  },
+  "ms-lg3": {
+    "prefix": "spfx-grid-lg3",
+    "body": "@include ms-lg3;",
+    "description": "Includes the ms-lg3 grid width"
+  },
+  "ms-lg2": {
+    "prefix": "spfx-grid-lg2",
+    "body": "@include ms-lg2;",
+    "description": "Includes the ms-lg2 grid width"
+  },
+  "ms-lg1": {
+    "prefix": "spfx-grid-lg1",
+    "body": "@include ms-lg1;",
+    "description": "Includes the ms-lg1 grid width"
+  },"ms-xl12": {
+    "prefix": "spfx-grid-xl12",
+    "body": "@include ms-xl12;",
+    "description": "Includes the ms-xl12 grid width"
+  },
+  "ms-xl11": {
+    "prefix": "spfx-grid-xl11",
+    "body": "@include ms-xl1xl112;",
+    "description": "Includes the ms-xl11 grid width"
+  },
+  "ms-xl10": {
+    "prefix": "spfx-grid-xl10",
+    "body": "@include ms-xl10;",
+    "description": "Includes the ms-xl10 grid width"
+  },
+  "ms-xl9": {
+    "prefix": "spfx-grid-xl9",
+    "body": "@include ms-xl9;",
+    "description": "Includes the ms-xl9 grid width"
+  },
+  "ms-xl8": {
+    "prefix": "spfx-grid-xl8",
+    "body": "@include ms-xl8;",
+    "description": "Includes the ms-xl8 grid width"
+  },
+  "ms-xl7": {
+    "prefix": "spfx-grid-xl7",
+    "body": "@include ms-xl7;",
+    "description": "Includes the ms-xl7 grid width"
+  },
+  "ms-xl6": {
+    "prefix": "spfx-grid-xl6",
+    "body": "@include ms-xl6;",
+    "description": "Includes the ms-xl6 grid width"
+  },
+  "ms-xl5": {
+    "prefix": "spfx-grid-xl5",
+    "body": "@include ms-xl5;",
+    "description": "Includes the ms-xl5 grid width"
+  },
+  "ms-xl4": {
+    "prefix": "spfx-grid-xl4",
+    "body": "@include ms-xl4;",
+    "description": "Includes the ms-xl4 grid width"
+  },
+  "ms-xl3": {
+    "prefix": "spfx-grid-xl3",
+    "body": "@include ms-xl3;",
+    "description": "Includes the ms-xl3 grid width"
+  },
+  "ms-xl2": {
+    "prefix": "spfx-grid-xl2",
+    "body": "@include ms-xl2;",
+    "description": "Includes the ms-xl2 grid width"
+  },
+  "ms-xl1": {
+    "prefix": "spfx-grid-xl1",
+    "body": "@include ms-xl1;",
+    "description": "Includes the ms-xl1 grid width"
+  },"ms-xxl12": {
+    "prefix": "spfx-grid-xxl12",
+    "body": "@include ms-xxl12;",
+    "description": "Includes the ms-xxl12 grid width"
+  },
+  "ms-xxl11": {
+    "prefix": "spfx-grid-xxl11",
+    "body": "@include ms-xxl1xxl112;",
+    "description": "Includes the ms-xxl11 grid width"
+  },
+  "ms-xxl10": {
+    "prefix": "spfx-grid-xxl10",
+    "body": "@include ms-xxl10;",
+    "description": "Includes the ms-xxl10 grid width"
+  },
+  "ms-xxl9": {
+    "prefix": "spfx-grid-xxl9",
+    "body": "@include ms-xxl9;",
+    "description": "Includes the ms-xxl9 grid width"
+  },
+  "ms-xxl8": {
+    "prefix": "spfx-grid-xxl8",
+    "body": "@include ms-xxl8;",
+    "description": "Includes the ms-xxl8 grid width"
+  },
+  "ms-xxl7": {
+    "prefix": "spfx-grid-xxl7",
+    "body": "@include ms-xxl7;",
+    "description": "Includes the ms-xxl7 grid width"
+  },
+  "ms-xxl6": {
+    "prefix": "spfx-grid-xxl6",
+    "body": "@include ms-xxl6;",
+    "description": "Includes the ms-xxl6 grid width"
+  },
+  "ms-xxl5": {
+    "prefix": "spfx-grid-xxl5",
+    "body": "@include ms-xxl5;",
+    "description": "Includes the ms-xxl5 grid width"
+  },
+  "ms-xxl4": {
+    "prefix": "spfx-grid-xxl4",
+    "body": "@include ms-xxl4;",
+    "description": "Includes the ms-xxl4 grid width"
+  },
+  "ms-xxl3": {
+    "prefix": "spfx-grid-xxl3",
+    "body": "@include ms-xxl3;",
+    "description": "Includes the ms-xxl3 grid width"
+  },
+  "ms-xxl2": {
+    "prefix": "spfx-grid-xxl2",
+    "body": "@include ms-xxl2;",
+    "description": "Includes the ms-xxl2 grid width"
+  },
+  "ms-xxl1": {
+    "prefix": "spfx-grid-xxl1",
+    "body": "@include ms-xxl1;",
+    "description": "Includes the ms-xxl1 grid width"
+  },"ms-xxxl12": {
+    "prefix": "spfx-grid-xxxl12",
+    "body": "@include ms-xxxl12;",
+    "description": "Includes the ms-xxxl12 grid width"
+  },
+  "ms-xxxl11": {
+    "prefix": "spfx-grid-xxxl11",
+    "body": "@include ms-xxxl1xxxl112;",
+    "description": "Includes the ms-xxxl11 grid width"
+  },
+  "ms-xxxl10": {
+    "prefix": "spfx-grid-xxxl10",
+    "body": "@include ms-xxxl10;",
+    "description": "Includes the ms-xxxl10 grid width"
+  },
+  "ms-xxxl9": {
+    "prefix": "spfx-grid-xxxl9",
+    "body": "@include ms-xxxl9;",
+    "description": "Includes the ms-xxxl9 grid width"
+  },
+  "ms-xxxl8": {
+    "prefix": "spfx-grid-xxxl8",
+    "body": "@include ms-xxxl8;",
+    "description": "Includes the ms-xxxl8 grid width"
+  },
+  "ms-xxxl7": {
+    "prefix": "spfx-grid-xxxl7",
+    "body": "@include ms-xxxl7;",
+    "description": "Includes the ms-xxxl7 grid width"
+  },
+  "ms-xxxl6": {
+    "prefix": "spfx-grid-xxxl6",
+    "body": "@include ms-xxxl6;",
+    "description": "Includes the ms-xxxl6 grid width"
+  },
+  "ms-xxxl5": {
+    "prefix": "spfx-grid-xxxl5",
+    "body": "@include ms-xxxl5;",
+    "description": "Includes the ms-xxxl5 grid width"
+  },
+  "ms-xxxl4": {
+    "prefix": "spfx-grid-xxxl4",
+    "body": "@include ms-xxxl4;",
+    "description": "Includes the ms-xxxl4 grid width"
+  },
+  "ms-xxxl3": {
+    "prefix": "spfx-grid-xxxl3",
+    "body": "@include ms-xxxl3;",
+    "description": "Includes the ms-xxxl3 grid width"
+  },
+  "ms-xxxl2": {
+    "prefix": "spfx-grid-xxxl2",
+    "body": "@include ms-xxxl2;",
+    "description": "Includes the ms-xxxl2 grid width"
+  },
+  "ms-xxxl1": {
+    "prefix": "spfx-grid-xxxl1",
+    "body": "@include ms-xxxl1;",
+    "description": "Includes the ms-xxxl1 grid width"
+  }
+}

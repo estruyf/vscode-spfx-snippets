@@ -1,0 +1,112 @@
+{
+  "ms-font-xxl": {
+    "prefix": "spfx-font-xxl",
+    "body": "@include ms-font-xxl;",
+    "description": "Includes the ms-font-xxl styles"
+  },
+  "ms-font-xl-plus": {
+    "prefix": "spfx-font-xl-plus",
+    "body": "@include ms-font-xl-plus;",
+    "description": "Includes the ms-font-xl-plus styles"
+  },
+  "ms-font-xl": {
+    "prefix": "spfx-font-xl",
+    "body": "@include ms-font-xl;",
+    "description": "Includes the ms-font-xl styles"
+  },
+  "ms-font-l": {
+    "prefix": "spfx-font-l",
+    "body": "@include ms-font-l;",
+    "description": "Includes the ms-font-l styles"
+  },
+  "ms-font-m-plus": {
+    "prefix": "spfx-font-m-plus",
+    "body": "@include ms-font-m-plus;",
+    "description": "Includes the ms-font-m-plus styles"
+  },
+  "ms-font-m": {
+    "prefix": "spfx-font-m",
+    "body": "@include ms-font-m;",
+    "description": "Includes the ms-font-m styles"
+  },
+  "ms-font-s-plus": {
+    "prefix": "spfx-font-s-plus",
+    "body": "@include ms-font-s-plus;",
+    "description": "Includes the ms-font-s-plus styles"
+  },
+  "ms-font-s": {
+    "prefix": "spfx-font-s",
+    "body": "@include ms-font-s;",
+    "description": "Includes the ms-font-s styles"
+  },
+  "ms-font-xs": {
+    "prefix": "spfx-font-xs",
+    "body": "@include ms-font-xs;",
+    "description": "Includes the ms-font-xs styles"
+  },
+  "ms-fontWeight-light": {
+    "prefix": "spfx-fontWeight-light",
+    "body": "@include ms-fontWeight-light;",
+    "description": "Includes the ms-fontWeight-light style"
+  },
+  "ms-fontWeight-semilight": {
+    "prefix": "spfx-fontWeight-semilight",
+    "body": "@include ms-fontWeight-semilight;",
+    "description": "Includes the ms-fontWeight-semilight style"
+  },
+  "ms-fontWeight-regular": {
+    "prefix": "spfx-fontWeight-regular",
+    "body": "@include ms-fontWeight-regular;",
+    "description": "Includes the ms-fontWeight-regular style"
+  },
+  "ms-fontWeight-semibold": {
+    "prefix": "spfx-fontWeight-semibold",
+    "body": "@include ms-fontWeight-semibold;",
+    "description": "Includes the ms-fontWeight-semibold style"
+  },
+  "ms-fontWeight-bold": {
+    "prefix": "spfx-fontWeight-bold",
+    "body": "@include ms-fontWeight-bold;",
+    "description": "Includes the ms-fontWeight-bold style"
+  },
+  "ms-fontSize-xxl": {
+    "prefix": "spfx-fontSize-xxl",
+    "body": "@include ms-fontSize-xxl;",
+    "description": "Includes the ms-fontSize-xxl font size style"
+  },
+  "ms-fontSize-xlPlus": {
+    "prefix": "spfx-fontSize-xlPlus",
+    "body": "@include ms-fontSize-xlPlus;",
+    "description": "Includes the ms-fontSize-xlPlus font size style"
+  },
+  "ms-fontSize-l": {
+    "prefix": "spfx-fontSize-l",
+    "body": "@include ms-fontSize-l;",
+    "description": "Includes the ms-fontSize-l font size style"
+  },
+  "ms-fontSize-mPlus": {
+    "prefix": "spfx-fontSize-mPlus",
+    "body": "@include ms-fontSize-mPlus;",
+    "description": "Includes the ms-fontSize-mPlus font size style"
+  },
+  "ms-fontSize-m": {
+    "prefix": "spfx-fontSize-m",
+    "body": "@include ms-fontSize-m;",
+    "description": "Includes the ms-fontSize-m font size style"
+  },
+  "ms-fontSize-sPlus": {
+    "prefix": "spfx-fontSize-sPlus",
+    "body": "@include ms-fontSize-sPlus;",
+    "description": "Includes the ms-fontSize-sPlus font size style"
+  },
+  "ms-fontSize-s": {
+    "prefix": "spfx-fontSize-s",
+    "body": "@include ms-fontSize-s;",
+    "description": "Includes the ms-fontSize-s font size style"
+  },
+  "ms-fontSize-xs": {
+    "prefix": "spfx-fontSize-xs",
+    "body": "@include ms-fontSize-xs;",
+    "description": "Includes the ms-fontSize-xs font size style"
+  }
+}

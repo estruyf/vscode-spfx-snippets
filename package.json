@@ -2,7 +2,7 @@
     "name": "spfx-snippets",
     "displayName": "SPFx Snippets",
     "description": "SharePoint Framework Snippets by Elio Struyf",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "icon": "assets/spfx-snippets.png",
     "publisher": "eliostruyf",
     "engines": {
@@ -48,6 +48,18 @@
             {
                 "language": "scss",
                 "path": "./snippets/sass.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/fabric-colors.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/fabric-fonts.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/fabric-grid.json"
             },
             {
                 "language": "json",

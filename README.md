@@ -49,6 +49,15 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 |---------|---------|
 | `spfx-fabcore` | Includes the Office UI Fabric Core styles into your SASS file. |
 | `spfx-fabreact` | Includes the core styles from the Office UI Fabric React package into your SASS file. |
+| `spfx-color-*` | Includes the color variable of your choice. Example: `spfx-color-themeDarker` adds `$ms-color-themeDarker`. |
+| `spfx-font-*` | Includes the font styling. Example: `spfx-font-xl` adds `@include ms-font-xl;`. |
+| `spfx-fontWeight-*` | Includes the font weight styling. Example: `spfx-fontWeight-bold` adds `@include ms-fontWeight-bold;`. |
+| `spfx-fontSize-*` | Includes the font size styling. Example: `spfx-fontSize-xl` adds `@include ms-fontSize-xl;`. |
+| `spfx-grid` | Includes grid styling: `@include ms-Grid;`. |
+| `spfx-grid-row` | Includes grid row styling: `@include ms-Grid-row;`. |
+| `spfx-grid-col` | Includes grid column styling: `@include ms-Grid-col;`. |
+| `spfx-grid-*` | Includes grid column sizes. Example: `spfx-grid-sm12` adds `@include ms-sm12;`. |
+
 
 ### JavaScript
 
