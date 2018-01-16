@@ -1,6 +1,15 @@
 # Change Log
 
+## [1.4.0]
+
+- Added `spfx-spget-import` snippet
+- Improved the grid size snippets. Example: `spfx-grid-sm*` now lets you choose its size once inserted.
+- Improved the `spfx-font` snippet with a list of available sizes.
+- Improved the `spfx-fontWeight` snippet with a list of available weights.
+- Improved the `spfx-fontSize` snippet with a list of available sizes.
+
 ## [1.3.0]
+
 - Added `spfx-gulp-task` snippet
 - Added `spfx-gulp-subtask` snippet
 - Added `spfx-webpack` snippet

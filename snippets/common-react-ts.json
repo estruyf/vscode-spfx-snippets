@@ -1,4 +1,11 @@
 {
+  "spfx-spget-import": {
+    "prefix": "spfx-spget-import",
+    "body": [
+      "import { SPHttpClient, SPHttpClientResponse } from \"@microsoft/sp-http\";"
+    ],
+    "description": "Adds SPHttpClient required import statement."
+  },
   "SPHttpClient get": {
     "prefix": "spfx-spget",
     "body": [
