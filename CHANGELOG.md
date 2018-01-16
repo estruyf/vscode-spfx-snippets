@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.3.0]
+- Added `spfx-gulp-task` snippet
+- Added `spfx-gulp-subtask` snippet
+- Added `spfx-webpack` snippet
+
 ## [1.2.0]
 
 - Added all SASS color variables as snippets: `spfx-color-*`

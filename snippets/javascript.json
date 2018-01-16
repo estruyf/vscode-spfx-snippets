@@ -10,5 +10,38 @@
       ""
     ],
     "description": "Defines the content to create a new locale file."
+  },
+  "spfx-gulp-task": {
+    "prefix": "spfx-gulp-task",
+    "body": [
+      "build.task('${1:taskName}', {",
+      "  execute: (config) => {",
+      "    ${2:}",
+      "  }",
+      "});"
+    ],
+    "description": "Defines the content for a new Gulp task."
+  },
+  "spfx-gulp-subtask": {
+    "prefix": "spfx-gulp-subtask",
+    "body": [
+      "build.subTask('${1:taskName}', (gulp, config, done) => {",
+      "  ${2:}",
+      "  done();",
+      "});"
+    ],
+    "description": "Defines the content for a new Gulp sub-task."
+  },
+  "spfx-webpack": {
+    "prefix": "spfx-webpack",
+    "body": [
+      "build.configureWebpack.mergeConfig({",
+      "  additionalConfiguration: (generatedConfiguration) => {",
+      "    ${1:}",
+      "    return generatedConfiguration;",
+      "  }",
+      "});"
+    ],
+    "description": "Defines the content extending the webpack configuration."
   }
 }

@@ -64,6 +64,9 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 | Snippet | Purpose |
 |---------|---------|
 | `spfx-locale-js` | Defines the content to create a new localization definition file. |
+| `spfx-gulp-task` | Defines the content for a new Gulp task. |
+| `spfx-gulp-subtask` | Defines the content for a new Gulp sub-task. |
+| `spfx-webpack` | Defines the content extending the webpack configuration. |
 
 ## Feedback and snippet ideas
 
