@@ -127,5 +127,23 @@
 			"}"
 		],
 		"description": "Add componentDidMount method which is invoked after the component mounting and rendering happened."
+	},
+	"componentWillReceiveProps": {
+		"prefix": "spfx-cwrp",
+		"body": [
+			"public componentWillReceiveProps(nextProps: I${1:Component}Props): void {",
+			"  ${2:}",
+			"}"
+		],
+		"description": "Add componentWillReceiveProps method which is invoked before a mounted component receives new prop."
+	},
+	"shouldComponentUpdate": {
+		"prefix": "spfx-scu",
+		"body": [
+			"public shouldComponentUpdate(nextProps: I${1:Component}Props, nextState: I${1:Component}State): boolean {",
+			"  ${2:}",
+			"}"
+		],
+		"description": "Add shouldComponentUpdate method which can be used to let your component know the output is not affected by the current change in state or props."
 	}
 }

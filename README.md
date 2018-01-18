@@ -26,6 +26,8 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 | `spfx-ucst` | Adds the `setState` block to correctly update the state based on previous value. |
 | `spfx-cwm` | Add `componentWillMount` method which is invoked before the component mounting happens. |
 | `spfx-cdm` | Add `componentDidMount` method which is invoked after the component mounting and rendering happened. |
+| `spfx-cwrp` | Add `componentWillReceiveProps` method which is invoked before a mounted component receives new prop. |
+| `spfx-scu` | Add `shouldComponentUpdate` method which can be used to let your component know the output is not affected by the current change in state or props. |
 | `spfx-cwu` | Adds `componentWillUpdate` method which is invoked just before rendering when new props or state are retrieved. |
 | `spfx-cwu` | Adds `componentDidUpdate` method which is invoked just after rendering when new props or state are retrieved. |
 

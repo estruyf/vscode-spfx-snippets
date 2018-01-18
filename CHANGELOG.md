@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.5.0]
+
+- Added `spfx-cwrp` snippet
+- Added `spfx-scu` snippet
+
+
 ## [1.4.0]
 
 - Added `spfx-spget-import` snippet
