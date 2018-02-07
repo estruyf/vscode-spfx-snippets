@@ -16,5 +16,16 @@
       "});"
     ],
     "description": "Adds SPHttpClient get request."
+  },
+  "HttpClient get": {
+    "prefix": "spfx-httpget",
+    "body": [
+      "this.context.httpClient.get(\"${1:https://your-web-api}\", HttpClient.configurations.v1)",
+      ".then((data: HttpClientResponse) => data.json())",
+      ".then((data: ${2:any}) => {",
+      "  ${3:}",
+      "});"
+    ],
+    "description": "Adds HttpClient get request."
   }
 }

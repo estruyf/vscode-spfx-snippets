@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.6.0]
+
+- Added `spfx-httpget` snippet
+- Updated extension logo for better visibility in dark theme
+
 ## [1.5.0]
 
 - Added `spfx-cwrp` snippet

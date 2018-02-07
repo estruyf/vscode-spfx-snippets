@@ -44,6 +44,7 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 | Snippet | Purpose |
 |---------|---------|
 | `spfx-spget` | Adds SPHttpClient get request. |
+| `spfx-httpget` | Adds HttpClient get request. |
 | `spfx-spget-import` | Adds SPHttpClient required import statement. |
 
 ### SASS (scss)
