@@ -1,5 +1,23 @@
 # Change Log
 
+## [1.7.0]
+
+- Added `spfx-graph` snippet
+- Added `spfx-webapi` json snippet
+- Added `spfx-add-permission` json snippet
+- Added `spfx-scope-calendar` json snippet
+- Added `spfx-scope-contacts` json snippet
+- Added `spfx-scope-directory` json snippet
+- Added `spfx-scope-files` json snippet
+- Added `spfx-scope-group` json snippet
+- Added `spfx-scope-mail` json snippet
+- Added `spfx-scope-sites` json snippet
+- Added `spfx-scope-tasks` json snippet
+- Added `spfx-scope-user` json snippet
+
+- Updated `spfx-spget` to `spfx-sp-get`
+- Updated `spfx-httpget` to `spfx-http-get`
+
 ## [1.6.0]
 
 - Added `spfx-httpget` snippet

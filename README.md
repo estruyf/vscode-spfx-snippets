@@ -5,6 +5,7 @@ This extension for Visual Studio Code adds snippets for SharePoint Framework sol
 - React
 - SASS (SCSS)
 - TypeScript
+- JSON
 
 ![Extension usage](./assets/spfx-snippet-demo.gif)
 
@@ -43,9 +44,11 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 
 | Snippet | Purpose |
 |---------|---------|
-| `spfx-spget` | Adds SPHttpClient get request. |
-| `spfx-httpget` | Adds HttpClient get request. |
-| `spfx-spget-import` | Adds SPHttpClient required import statement. |
+| `spfx-sp-get` | Adds `SPHttpClient` get request. |
+| `spfx-http-get` | Adds `HttpClient` get request. |
+| `spfx-spget-import` | Adds `SPHttpClient` required import statement. |
+| `spfx-graph-get` | Adds code for the `MSGraphClient` get request. |
+| `spfx-aad-get` | Adds code for the `AadHttpClient` get request. |
 
 ### SASS (scss)
 
@@ -77,6 +80,22 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 | `spfx-gulp-subtask` | Defines the content for a new Gulp sub-task. |
 | `spfx-webpack` | Defines the content extending the webpack configuration. |
 
+### JSON
+
+| Snippet | Purpose |
+|---------|---------|
+| `spfx-webapi` | Includes the `webApiPermissionRequests` property with `Microsoft Graph` as the resource. |
+| `spfx-add-permission` | Includes a new permission object (resource + scope). |
+| `spfx-scope-calendar` | Include one of the Microsoft Graph `calendar` scopes (CHOICE). |
+| `spfx-scope-contacts` | Include one of the Microsoft Graph `contacts` scopes (CHOICE). |
+| `spfx-scope-directory` | Include one of the Microsoft Graph `directory` scopes (CHOICE). |
+| `spfx-scope-files` | Include one of the Microsoft Graph `files` scopes (CHOICE). |
+| `spfx-scope-group` | Include one of the Microsoft Graph `group` scopes (CHOICE). |
+| `spfx-scope-mail` | Include one of the Microsoft Graph `mail` scopes (CHOICE). |
+| `spfx-scope-sites` | Include one of the Microsoft Graph `sites` scopes (CHOICE). |
+| `spfx-scope-tasks` | Include one of the Microsoft Graph `tasks` scopes (CHOICE). |
+| `spfx-scope-user` | Include one of the Microsoft Graph `user` scopes (CHOICE). |
+
 ## Feedback and snippet ideas
 
-Feedback an snippet ideas are always welcome. Please submit them via creating an issue in the repository: [issue list](https://github.com/estruyf/vscode-spfx-snippets/issues).
+Feedback and/or snippet ideas are always welcome. Please submit them via creating an issue in the extension repository: [issue list](https://github.com/estruyf/vscode-spfx-snippets/issues).
