@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.7.1]
+
+- Fix for `json` permission scope snippets
+
 ## [1.7.0]
 
 - Added `spfx-graph` snippet

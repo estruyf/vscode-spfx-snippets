@@ -23,47 +23,47 @@
   },
   "spfx-scope-calendar": {
     "prefix": "spfx-scope-calendar",
-    "body": "${1|Calendars.Read,Calendars.Read.Shared,Calendars.ReadWrite,Calendars.ReadWrite.Shared|}",
+    "body": "${1|\"Calendars.Read\",\"Calendars.Read.Shared\",\"Calendars.ReadWrite\",\"Calendars.ReadWrite.Shared\"|}",
     "description": "Include one of the Microsoft Graph calendar scopes."
   },
   "spfx-scope-contacts": {
     "prefix": "spfx-scope-contacts",
-    "body": "${1|Contacts.Read,Contacts.Read.Shared,Contacts.ReadWrite,Contacts.ReadWrite.Shared|}",
+    "body": "${1|\"Contacts.Read\",\"Contacts.Read.Shared\",\"Contacts.ReadWrite\",\"Contacts.ReadWrite.Shared\"|}",
     "description": "Include one of the Microsoft Graph contacts scopes."
   },
   "spfx-scope-directory": {
     "prefix": "spfx-scope-directory",
-    "body": "${1|Directory.Read.All,Directory.ReadWrite.All,Directory.AccessAsUser.All|}",
+    "body": "${1|\"Directory.Read.All\",\"Directory.ReadWrite.All\",\"Directory.AccessAsUser.All\"|}",
     "description": "Include one of the Microsoft Graph directory scopes."
   },
   "spfx-scope-files": {
     "prefix": "spfx-scope-files",
-    "body": "${1|Files.Read,Files.Read.All,Files.ReadWrite,Files.ReadWrite.All|}",
+    "body": "${1|\"Files.Read\",\"Files.Read.All\",\"Files.ReadWrite\",\"Files.ReadWrite.All\"|}",
     "description": "Include one of the Microsoft Graph files scopes."
   },
   "spfx-scope-group": {
     "prefix": "spfx-scope-group",
-    "body": "${1|Group.Read.All,Group.ReadWrite.All|}",
+    "body": "${1|\"Group.Read.All\",\"Group.ReadWrite.All\"|}",
     "description": "Include one of the Microsoft Graph group scopes."
   },
   "spfx-scope-mail": {
     "prefix": "spfx-scope-mail",
-    "body": "${1|Mail.Read,Mail.ReadWrite,Mail.Read.Shared,Mail.ReadWrite.Shared,Mail.Send,Mail.Send.Shared|}",
+    "body": "${1|\"Mail.Read\",\"Mail.ReadWrite\",\"Mail.Read.Shared\",\"Mail.ReadWrite.Shared\",\"Mail.Send,Mail.Send.Shared\"|}",
     "description": "Include one of the Microsoft Graph mail scopes."
   },
   "spfx-scope-sites": {
     "prefix": "spfx-scope-sites",
-    "body": "${1|Sites.Read.All,Sites.ReadWrite.All,Sites.Manage.All,Sites.FullControl.All|}",
+    "body": "${1|\"Sites.Read.All\",\"Sites.ReadWrite.All\",\"Sites.Manage.All\",\"Sites.FullControl.All\"|}",
     "description": "Include one of the Microsoft Graph sites scopes."
   },
   "spfx-scope-tasks": {
     "prefix": "spfx-scope-tasks",
-    "body": "${1|Tasks.Read,Tasks.Read.Shared,Tasks.ReadWrite,Tasks.ReadWrite.Shared|}",
+    "body": "${1|\"Tasks.Read\",\"Tasks.Read.Shared\",\"Tasks.ReadWrite\",\"Tasks.ReadWrite.Shared\"|}",
     "description": "Include one of the Microsoft Graph tasks scopes."
   },
   "spfx-scope-user": {
     "prefix": "spfx-scope-user",
-    "body": "${1|User.Read,User.ReadWrite,User.ReadBasic.All,User.Read.All,User.ReadWrite.All,User.Invite.All|}",
+    "body": "${1|\"User.Read\",\"User.ReadWrite\",\"User.ReadBasic.All\",\"User.Read.All\",\"User.ReadWrite.All\",\"User.Invite.All\"|}",
     "description": "Include one of the Microsoft Graph user scopes."
   }
 }
