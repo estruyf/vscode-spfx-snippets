@@ -7,7 +7,7 @@
     "description": "Adds SPHttpClient required import statement."
   },
   "SPHttpClient get": {
-    "prefix": "spfx-spget",
+    "prefix": "spfx-sp-get",
     "body": [
       "this.context.spHttpClient.get(\"${1:https://contoso.sharepoint.com/_api/web/lists}\", SPHttpClient.configurations.v1)",
       ".then((data: SPHttpClientResponse) => data.json())",
@@ -16,5 +16,52 @@
       "});"
     ],
     "description": "Adds SPHttpClient get request."
+  },
+  "HttpClient get": {
+    "prefix": "spfx-http-get",
+    "body": [
+      "this.context.httpClient.get(\"${1:https://your-web-api}\", HttpClient.configurations.v1)",
+      ".then((data: HttpClientResponse) => data.json())",
+      ".then((data: ${2:any}) => {",
+      "  ${3:}",
+      "});"
+    ],
+    "description": "Adds HttpClient get request."
+  },
+  "MSGraphClient get": {
+    "prefix": "spfx-graph-get",
+    "body": [
+      "const graphClient: MSGraphClient = this.props.context.serviceScope.consume(",
+      "  MSGraphClient.serviceKey",
+      ");",
+      "",
+      "graphClient.api(\"me\").version(\"v1.0\").select(\"displayName,mail,userPrincipalName\").get((err, res) => {",
+      "  if (err) {",
+      "    console.error(err);",
+      "    return;",
+      "  }",
+      "",
+      "  ${1:}",
+      "});"
+    ],
+    "description": "Adds code for the MSGraphClient get call."
+  },
+  "AadClient get": {
+    "prefix": "spfx-aad-get",
+    "body": [
+      "const aadClient: AadHttpClient = new AadHttpClient(",
+      "  this.props.context.serviceScope,",
+      "  \"https://graph.microsoft.com\"",
+      ");",
+      "",
+      "aadClient.get(`${1:https://graph.microsoft.com/v1.0/me}`, AadHttpClient.configurations.v1)",
+      ".then((response: HttpClientResponse) => {",
+      "  return response.json();",
+      "})",
+      ".then((data: any) => {",
+      "  ${2:}",
+      "});"
+    ],
+    "description": "Adds code for the AadHttpClient get call."
   }
 }
