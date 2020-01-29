@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.8.1]
+
+- Adding missing semicolons
+
 ## [1.8.0]
 
 - Added React Stateless Function Component: `spfx-fnc`

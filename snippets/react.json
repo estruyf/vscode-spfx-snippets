@@ -67,7 +67,7 @@
 			"",
 			"    </>",
 			"  );",
-			"}"
+			"};"
 		],
 		"description": "Creates a new Stateless Function Component"
 	},
@@ -86,7 +86,7 @@
 			"",
 			"    </>",
 			"  );",
-			"}"
+			"};"
 		],
 		"description": "Creates a new React Function Component with useState Hook"
 	},
