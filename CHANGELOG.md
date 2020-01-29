@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.8.0]
+
+- Added React Stateless Function Component: `spfx-fnc`
+- Added React Function Component with `useState` hook: `spfx-fnc-state`
+
 ## [1.7.1]
 
 - Fix for `json` permission scope snippets

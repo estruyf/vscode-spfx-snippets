@@ -33,6 +33,7 @@
       "export interface I${1:Component}State {}",
       "",
 			"export default class ${1:} extends React.Component<I${1:}Props, I${1:Component}State> {",
+      "",
 			"  constructor(props: I${1:Component}Props) {",
 			"    super(props);",
 			"",
@@ -52,7 +53,43 @@
 			""
 		],
 		"description": "Creates a new React Component with state initialization."
-  },
+	},
+	"React Stateless Function Component": {
+		"prefix": "spfx-fnc",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface I${1:Component}Props {}",
+      "",
+			"export const ${1:Component}: React.FunctionComponent<I${1:Component}Props> = (props: I${1:Component}Props) => {",
+			"  return (",
+			"    <>",
+			"",
+			"    </>",
+			"  );",
+			"}"
+		],
+		"description": "Creates a new Stateless Function Component"
+	},
+	"React Function Component with useState Hook": {
+		"prefix": "spfx-fnc-state",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface I${1:Component}Props {}",
+      "",
+			"export const ${1:Component}: React.FunctionComponent<I${1:Component}Props> = (props: I${1:Component}Props) => {",
+			"  const [value, setValue] = React.useState('');",
+			"",
+			"  return (",
+			"    <>",
+			"",
+			"    </>",
+			"  );",
+			"}"
+		],
+		"description": "Creates a new React Function Component with useState Hook"
+	},
   "React Constructor": {
     "prefix": "spfx-con",
 		"body": [

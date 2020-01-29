@@ -19,6 +19,8 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 
 | Snippet | Purpose |
 |---------|---------|
+| `spfx-fnc` | Creates a new React Stateless Function Component. |
+| `spfx-fnc-state` | Creates a new React Function Component with `useState` hook. |
 | `spfx-rcc` | Creates a new React Component. |
 | `spfx-rcc-state` | Creates a new React Component with state initialization. |
 | `spfx-con` | Adds a React `constructor` method. |
