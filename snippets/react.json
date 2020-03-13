@@ -182,5 +182,46 @@
 			"}"
 		],
 		"description": "Add shouldComponentUpdate method which can be used to let your component know the output is not affected by the current change in state or props."
+	},
+	"Custom Hook": {
+		"prefix": "spfx-hook",
+		"body": [
+			"import { useState, useEffect } from 'react';",
+			"",
+			"export default function ${1:useCustom}(options?: any) {",
+			"  const [value, setValue] = useState('');",
+			"",
+			"  useEffect(() => {",
+			"    async function fetchData() {",
+			"      setValue('');",
+			"    }",
+			"",
+			"    fetchData();",
+			"  }, [options]);",
+			"",
+			"  return {",
+			"    value",
+			"  };",
+			"}"
+		],
+		"description": "Blueprint to create a custom React hook"
+	},
+	"useEffect": {
+		"prefix": "spfx-effect",
+		"body": [
+			"useEffect(() => {",
+			"  ${1:}",
+			"});"
+		],
+		"description": "The Effect Hook lets you perform side effects in function components. Similar like componentDidMount and componentDidUpdate."
+	},
+	"useEffect once": {
+		"prefix": "spfx-effect-once",
+		"body": [
+			"useEffect(() => {",
+			"  ${1:}",
+			"}, []);"
+		],
+		"description": "The Effect Hook lets you perform side effects in function components. Only runs once, like componentDidMount."
 	}
 }

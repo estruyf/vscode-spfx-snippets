@@ -21,6 +21,9 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 |---------|---------|
 | `spfx-fnc` | Creates a new React Stateless Function Component. |
 | `spfx-fnc-state` | Creates a new React Function Component with `useState` hook. |
+| `spfx-effect` | The `useEffect` Hook lets you perform side effects in function components. Similar like componentDidMount and componentDidUpdate. |
+| `spfx-effect-once` | The `useEffect` Hook lets you perform side effects in function components. Only runs once, like componentDidMount. |
+| `spfx-hook` | Blueprint to create a custom React hook. |
 | `spfx-rcc` | Creates a new React Component. |
 | `spfx-rcc-state` | Creates a new React Component with state initialization. |
 | `spfx-con` | Adds a React `constructor` method. |

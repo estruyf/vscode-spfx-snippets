@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.9.0]
+
+- Added React `useEffect` hook snippet: `spfx-effect`
+- Added React `useEffect` hook snippet which only executes once: `spfx-effect-once`
+- Added blueprint of a custom React hook: `spfx-hook`
+
 ## [1.8.1]
 
 - Adding missing semicolons
