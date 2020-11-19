@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.10.0]
+
+- Updated the `spfx-fnc` and `spfx-fnc-state` with the `PropsWithChildren` interface.
+
 ## [1.9.0]
 
 - Added React `useEffect` hook snippet: `spfx-effect`
