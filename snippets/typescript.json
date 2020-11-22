@@ -39,5 +39,28 @@
       "ReactDom.render(element, this.domElement);"
     ],
     "description": "Adds the code required to create and render a React component."
-  }
+  },
+  "Custom Hook": {
+		"prefix": "spfx-hook",
+		"body": [
+			"import { useState, useEffect } from 'react';",
+			"",
+			"export default function ${1:useCustom}(options?: any) {",
+			"  const [value, setValue] = useState('');",
+			"",
+			"  useEffect(() => {",
+			"    async function fetchData() {",
+			"      setValue('');",
+			"    }",
+			"",
+			"    fetchData();",
+			"  }, [options]);",
+			"",
+			"  return {",
+			"    value",
+			"  };",
+			"}"
+		],
+		"description": "Blueprint to create a custom React hook"
+	}
 }

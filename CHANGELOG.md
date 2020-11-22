@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.10.1]
+
+- Added `spfx-hook` to TypeScript as well.
 ## [1.10.0]
 
 - Updated the `spfx-fnc` and `spfx-fnc-state` with the `PropsWithChildren` interface.
