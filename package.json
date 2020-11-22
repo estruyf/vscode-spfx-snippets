@@ -2,7 +2,7 @@
     "name": "spfx-snippets",
     "displayName": "SPFx Snippets",
     "description": "SharePoint Framework Snippets by Elio Struyf",
-    "version": "1.10.0",
+    "version": "1.10.1",
     "icon": "assets/spfx-snippets.png",
     "publisher": "eliostruyf",
     "engines": {
