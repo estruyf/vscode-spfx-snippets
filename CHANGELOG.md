@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.11.0]
+
+- Added React `useAsyc` hook which is available with `spfx-hook-async`.
+- Added React `usePrevious` hook which is available with `spfx-hook-prev`.
+
 ## [1.10.0]
 
 - Updated the `spfx-fnc` and `spfx-fnc-state` with the `PropsWithChildren` interface.

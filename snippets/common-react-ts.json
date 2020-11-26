@@ -63,5 +63,68 @@
       "});"
     ],
     "description": "Adds code for the AadHttpClient get call."
+  },
+  "React usePrevious hook": {
+    "prefix": "spfx-hook-prev",
+    "description": "Add code for adding an `usePrevious` hook.",
+    "body": [
+      "import { useEffect } from 'react';",
+      "",
+      "export function usePrevious<T>(value: T): T {",
+      "  const ref = useRef<T>();",
+      "",
+      "  useEffect(() => {",
+      "    ref.current = value;",
+      "  }, [value]);",
+      "",
+      "  return ref.current;",
+      "}"
+    ]
+  },
+  "React useAsync hook": {
+    "prefix": "spfx-hook-async",
+    "description": "Add code for adding an `useAsync` hook.",
+    "body": [
+      "import { useState, useEffect, useCallback } from 'react';",
+      "",
+      "/**",
+      " * ${1:Async function description}",
+      " * @param asyncFuncRef The reference to the async function to call",
+      " * @param callOnInit Call the function when the hook gets initiated. Default: true.",
+      " * @param isFetch Specifies if the function performs a fetch call. The JSON response will automatically be fetched.",
+      " */",
+      "export function useAsync<T>(asyncFuncRef: () => Promise<T>, callOnInit: boolean, isFetch: boolean = false) {",
+      "  const [ loading, setLoading ] = useState<boolean>(false);",
+      "  const [ value, setValue ] = useState<T | null>(null);",
+      "  const [ error, setError ] = useState<Error | null>(null);",
+      "",
+      "  const asyncFuncCall = useCallback(async () => {",
+      "    setLoading(true);",
+      "    setValue(null);",
+      "    setError(null);",
+      "",
+      "    try {",
+      "      const data: any = await asyncFuncRef();",
+      "      if (isFetch) {",
+      "        setValue(await data.json());",
+      "      } else {",
+      "        setValue(data)",
+      "      }",
+      "      setLoading(false);",
+      "    } catch (e) {",
+      "      setError(e);",
+      "      setLoading(false);",
+      "    }",
+      "  }, [asyncFuncRef]);",
+      "",
+      "  useEffect(() => {",
+      "    if (callOnInit) {",
+      "      asyncFuncCall();",
+      "    }",
+      "  }, [asyncFuncCall, callOnInit, isFetch]);",
+      "",
+      "  return { asyncFuncCall, loading, value, error };",
+      "}"
+    ]
   }
 }
