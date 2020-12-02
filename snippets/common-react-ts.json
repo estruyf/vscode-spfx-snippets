@@ -91,9 +91,9 @@
     "prefix": "spfx-hook-prev",
     "description": "Add code for adding an `usePrevious` hook.",
     "body": [
-      "import { useEffect } from 'react';",
+      "import { useEffect, useRef } from 'react';",
       "",
-      "export function usePrevious<T>(value: T): T {",
+      "export function usePrevious<T>(value: T): T | undefined {",
       "  const ref = useRef<T>();",
       "",
       "  useEffect(() => {",

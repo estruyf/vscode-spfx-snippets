@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.11.1]
+
+- Fix for the `usePrevious` snippet.
+
 ## [1.11.0]
 
 - Added React `useAsyc` hook which is available with `spfx-hook-async`.
