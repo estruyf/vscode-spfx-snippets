@@ -43,5 +43,44 @@
       "});"
     ],
     "description": "Defines the content extending the webpack configuration."
+  },
+  "spfx-version-sync": {
+    "prefix": "spfx-version-sync",
+    "body": [
+    	"let versionSync = build.subTask('version-sync', function(gulp, buildOptions, done) {",
+      	"  // import file system utilities form nodeJS",
+      	"  const fs = require('fs');",
+      	"",
+      	"  // read package.json",
+      	"  var pkgConfig = require('./package.json');",
+      	"",
+      	"  // read configuration of web part solution file",
+      	"  var pkgSolution = require('./config/package-solution.json');",
+      	"",
+      	"  // log old version",
+      	"  this.log('Old Webpart Version:\t' + pkgSolution.solution.version);",
+      	"",
+      	"  // Generate new MS compliant version number",
+      	"  var newVersionNumber = pkgConfig.version.split('-')[0] + '.0';",
+      	"",
+      	"  // assign newly generated version number to web part version",
+      	"  pkgSolution.solution.version = newVersionNumber;",
+      	"",
+      	"  // log new version",
+      	"  this.log('New Webpart Version:\t' + pkgSolution.solution.version);",
+      	"",
+      	"  // write changed package-solution file",
+      	"  fs.writeFile('./config/package-solution.json', JSON.stringify(pkgSolution, null, 4));",
+      	"",
+      	"  // adds the gulp task to scripts.postversion of package.json file if not existing",
+      	"  if(!pkgConfig.scripts.postversion){",
+      	"    pkgConfig.scripts.postversion = 'gulp version-sync';",    
+      	"    fs.writeFile('./package.json', JSON.stringify(pkgConfig));",
+      	"  }",
+        "});",
+        "",
+        "build.task('version-sync', versionSync);"
+    ],
+    "description": "Creates a gulp task for syncing the package version with the webpart version when using 'npm version [major|minor|patch]'"
   }
 }
