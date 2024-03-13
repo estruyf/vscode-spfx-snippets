@@ -2,7 +2,7 @@
 
 ## [1.12.0]
 
-- Added React `useContext` provider snippet with `spfx-provider`
+- Added React `useContext` provider snippet with `spfx-context`
 
 ## [1.11.1]
 
