@@ -107,3 +107,12 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 ## Feedback and snippet ideas
 
 Feedback and/or snippet ideas are always welcome. Please submit them via creating an issue in the extension repository: [issue list](https://github.com/estruyf/vscode-spfx-snippets/issues).
+
+<br />
+<br />
+
+<p align="center">
+  <a href="https://visitorbadge.io">
+    <img src="https://api.visitorbadge.io/api/visitors?path=estruyf%2Fvscode-spfx-snippets&countColor=%23263759" height="25px" alt="SPFx Snippets visitors" />
+  </a>
+</p>

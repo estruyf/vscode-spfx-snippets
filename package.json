@@ -23,9 +23,11 @@
         "type": "git",
         "url": "https://github.com/estruyf/vscode-spfx-snippets"
     },
+    "sponsor": {
+        "url": "https://github.com/sponsors/estruyf"
+    },
     "contributes": {
-        "snippets": [
-            {
+        "snippets": [{
                 "language": "typescriptreact",
                 "path": "./snippets/react.json"
             },
