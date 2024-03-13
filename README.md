@@ -1,6 +1,7 @@
 # SharePoint Framework Snippets
 
 This extension for Visual Studio Code adds snippets for SharePoint Framework solution development. It contains snippets for working in:
+
 - JavaScript (resource files)
 - React
 - SASS (SCSS)
@@ -23,6 +24,7 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 | `spfx-fnc-state` | Creates a new React Function Component with `useState` hook. |
 | `spfx-effect` | The `useEffect` Hook lets you perform side effects in function components. Similar like componentDidMount and componentDidUpdate. |
 | `spfx-effect-once` | The `useEffect` Hook lets you perform side effects in function components. Only runs once, like componentDidMount. |
+| `spfx-context` | Blueprint to create a `useContext` React hook that lets you read and subscribe to context from your component. |
 | `spfx-hook` | Blueprint to create a custom React hook. |
 | `spfx-hook-async` | Add code for adding an `useAsync` hook. |
 | `spfx-hook-prev` | Add code for adding an `usePrevious` hook. |
@@ -76,7 +78,6 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 | `spfx-grid-xl*` | Includes x-large grid and lets you choose the size between 1 - 12. |
 | `spfx-grid-xxl*` | Includes xx-large grid and lets you choose the size between 1 - 12. |
 | `spfx-grid-xxxl*` | Includes xxx-large grid and lets you choose the size between 1 - 12. |
-
 
 ### JavaScript
 

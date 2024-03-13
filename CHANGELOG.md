@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.12.0]
+
+- Added React `useContext` provider snippet with `spfx-provider`
+
 ## [1.11.1]
 
 - Fix for the `usePrevious` snippet.
@@ -12,6 +16,7 @@
 ## [1.10.1]
 
 - Added `spfx-hook` to TypeScript as well.
+
 ## [1.10.0]
 
 - Updated the `spfx-fnc` and `spfx-fnc-state` with the `PropsWithChildren` interface.
@@ -63,7 +68,6 @@
 - Added `spfx-cwrp` snippet
 - Added `spfx-scu` snippet
 
-
 ## [1.4.0]
 
 - Added `spfx-spget-import` snippet
@@ -100,4 +104,5 @@
 - Added `spfx-spget` snippet
 
 ## [1.0.0]
+
 - Initial release
