@@ -7,9 +7,8 @@ on:
 
 jobs:
   release-ms:
-    name: 'Release to VSCode Marketplace'
+    name: "Release to VSCode Marketplace"
     runs-on: ubuntu-latest
-    needs: localization
     steps:
       - uses: actions/checkout@v4
 
@@ -17,7 +16,7 @@ jobs:
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
-          cache: 'npm'
+          cache: "npm"
 
       - name: Publish
         run: npx @vscode/vsce publish -p ${{ secrets.VSCE_PAT }}
