@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.13.0]
+
+- Release on open-vsx.org
+
 ## [1.12.0]
 
 - Added React `useContext` provider snippet with `spfx-context`
@@ -19,12 +23,14 @@
 
 ## [1.10.0]
 
-- Updated the `spfx-fnc` and `spfx-fnc-state` with the `PropsWithChildren` interface.
+- Updated the `spfx-fnc` and `spfx-fnc-state` with the `PropsWithChildren`
+  interface.
 
 ## [1.9.0]
 
 - Added React `useEffect` hook snippet: `spfx-effect`
-- Added React `useEffect` hook snippet which only executes once: `spfx-effect-once`
+- Added React `useEffect` hook snippet which only executes once:
+  `spfx-effect-once`
 - Added blueprint of a custom React hook: `spfx-hook`
 
 ## [1.8.1]
@@ -71,7 +77,8 @@
 ## [1.4.0]
 
 - Added `spfx-spget-import` snippet
-- Improved the grid size snippets. Example: `spfx-grid-sm*` now lets you choose its size once inserted.
+- Improved the grid size snippets. Example: `spfx-grid-sm*` now lets you choose
+  its size once inserted.
 - Improved the `spfx-font` snippet with a list of available sizes.
 - Improved the `spfx-fontWeight` snippet with a list of available weights.
 - Improved the `spfx-fontSize` snippet with a list of available sizes.
@@ -88,7 +95,8 @@
 - Added font styling snippets: `spfx-font-*`
 - Added font weight snippets: `spfx-fontWeight-*`
 - Added font size snippets: `spfx-fontSize-*`
-- Added grid styles: `spfx-grid`, `spfx-grid-row`, `spfx-grid-col`, and `spfx-grid-*`
+- Added grid styles: `spfx-grid`, `spfx-grid-row`, `spfx-grid-col`, and
+  `spfx-grid-*`
 
 ## [1.1.0]
 
